@@ -1,0 +1,31 @@
+/* elements */
+
+html,body { height:100%; }
+
+/* Classes */
+
+.title-container {
+  background-color: #2472B3;
+  color: #C1DFF8;
+  width: 70%;
+  margin: auto;
+  padding: 2em;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.content-box1 {
+  background-color: #C1DFF8;
+  color: #2472B3;
+  width: 70%;
+  margin: auto;
+  padding: 2em;
+}
+
+.content-box2 {
+  background-color: #2472B3;
+  color: #C1DFF8;
+  width: 70%;
+  margin: auto;
+  padding: 2em;
+}
