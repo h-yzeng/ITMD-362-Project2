@@ -40,4 +40,54 @@ html {
     color: #50c5ff;
 }
 
+/* Body */
+body {
+  font-family: Impact, 'Arial Narrow Bold', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.maincontent h1{
+  text-align: center;
+  font-size: 30px;
+  color:#00537d;
+  margin-bottom: 10px;
+}
+
+.mainimage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#mainimage {
+  width: 150px;
+  height: 150px;
+}
+
+.imagewrapper {
+  display: flex;
+  color: #444;
+  align-items: center;
+  min-height: 10vh;
+  overflow-x: hidden;
+}
+
+.imagebox {
+  flex: 1;
+  border: 5px solid #00aaff;
+  background-color: #fff;
+  color: #444;
+  border-radius: 5px;
+  text-align: center;
+  margin: 5px;
+  line-height: 0;
+}
+
+.imagebox img {
+  object-fit: cover;
+  width: 460px;
+  height: 215px;
+}
 
