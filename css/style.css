@@ -1,5 +1,10 @@
+/* base html style*/
 * {
   box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
 }
 
 /*Navigation Bar Style*/
@@ -9,14 +14,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 20px;
-  border-bottom: 2px solid#00aaff;
+  padding: 10px 10px;
+  border-bottom: 5px solid#00aaff;
   width: auto;
-}
-
-img {
-  width: 50px;
-  height: 50px;
 }
 
 .navbuttons {
@@ -27,37 +27,17 @@ img {
 
 .navbuttons li {
   margin-right: 20px;
+  margin-left: 20px;
 }
 
 .navbuttons a {
   text-decoration: none;
-  color: #318cb9;
+  color: #00334d;
   transition: color 0.3s ease;
 }
 
 .navbuttons a:hover {
-    color: #00334d;
+    color: #50c5ff;
 }
 
-/* Body */
-.imagewrapper {
-  grid-template-columns: repeat(3, 1fr);
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 150px;
-  background-color: rgb(121, 209, 179);
-  color: #444;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.imagebox {
-  border: 5px solid #444;
-  background-color: #fff;
-  color: #444;
-  border-radius: 5px;
-  padding: 200px;
-  text-align: center;
-}
 
