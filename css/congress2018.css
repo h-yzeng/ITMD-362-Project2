@@ -1,6 +1,53 @@
 /* elements */
+html {
+  display: block;  
+}
 
-html,body { height:100%; }
+html,body { 
+  height:100%; 
+}
+
+p {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+}
+
+ul { 
+  display: block;
+  list-style-type: disc;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+ol { 
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+}
+
+li {
+  display: list-item;
+}
 
 /* Classes */
 
@@ -28,4 +75,13 @@ html,body { height:100%; }
   width: 70%;
   margin: auto;
   padding: 2em;
+}
+
+div.center {
+  text-align: center;
+}
+
+ol.myol {
+  display: inline-block;
+  text-align: left;
 }
