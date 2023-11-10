@@ -1,21 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>ITMD362 - Project 2</title>
-</head>
-<body>
-  <nav class="navigation">
-    <div class="logo">
-      <a href="">ISUD Logo</a>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ITMD362 - Project 2</title>
+  </head>
+  <body>
+    <nav class="navigation">
+      <ul class="navbuttons">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="2018congress.html">ISUD Event</a></li>
+        <li><a href="ISUD_Journal.html">ISUD Journal</a></li>
+      </ul>
+    </nav>
+    <div class="maincontent">
+      <h1>The International Society for Universal Dialogue</h1>
+      <div class="mainimage">
+      <a href="images/ISUD_Logo_color.jpg"><img id="mainimage" src="images/ISUD_Logo_color.jpg" alt="ISUD Logo"></a>
+      </div>
     </div>
-    <ul class="navbuttons">
-      <li><a href></a></li>
-      <li><a href></a></li>
-      <li><a href></a></li>
-    </ul>
-  </nav>
-</body>
+    <div class="imagewrapper">
+      <div class="imagebox">
+        <img src="images/picture1.jpg" alt="Image1">
+      </div>
+      <div class="imagebox">
+        <img src="images/picture2.jpg" alt="Image2">
+      </div>
+      <div class="imagebox">
+        <img src="images/picture3.jpg" alt="Image3">
+      </div>
+    </div>
+    <footer>
+      <div id="Form">
+        <form method="get" autocomplete="on" action="#null" name="interestForm">
+          <div class="Header">
+            <h1 id="formtitle">Thank you for your interest in ISUD</h1>
+            <p id="titledescription">To contact us please reach us using the form below.</p>
+          </div>
+          <div class="name">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" id="name" autocomplete="on" placeholder="Full Name" maxlength="32" pattern="[A-Za-z]{1,32}+[.*\S+.*]{2,3}" required/>
+          </div>
+          <div class="email">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="on" placeholder="Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required/>
+          </div>
+          <div class="subject">
+            <label for="subject">Subject:</label>
+            <input type="text" name="subject" id="subject" autocomplete="on" placeholder="Subject" required/>
+          </div>
+          <div class="textarea">
+            <label for="messagecontent">Message:</label>
+            <textarea id="messagecontent" name="content" rows="5" cols="50" placeholder="Type your message." spellcheck="false" required></textarea>
+          </div>
+          <div class="submit">
+            <input type="submit" name="submit" id="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
 </html>
