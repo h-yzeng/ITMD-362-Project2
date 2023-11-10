@@ -103,13 +103,3 @@ footer {
   border-top: 5px solid;
   border-top-color:#00aaff;
 }
-/*box*/
-h1{
-	justify-content: center;
-	text-align: center;
-	font-size: 1.7em;
-	padding: 1em;
-	border-bottom: solid;
-	background-color: #E5F4C0;
-	color: #00334daa;
-}
