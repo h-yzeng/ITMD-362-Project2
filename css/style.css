@@ -103,3 +103,36 @@ footer {
   border-top: 5px solid;
   border-top-color:#00aaff;
 }
+@media(min-hight: 1020px){
+html{
+	display: flex;
+	margin: 0;
+	position: absolute;
+	background-color: black;
+}
+p{
+	justify-content: center;
+	text-align: center;
+}
+
+}
+@media(min-wight: 500px){
+html{
+	margin: 0;
+	position: absolute;
+	justify-content: center;
+	text-align: center;
+}
+
+.imagebox {
+  border: overflex solid #00aaff;
+  line-height: 0;
+}
+.imagewrapper {
+  display: overflex;
+  color: #444;
+  align-items: center;
+  min-height: 10vh;
+  overflow-x: hidden;
+}
+}
