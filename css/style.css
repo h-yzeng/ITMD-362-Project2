@@ -125,11 +125,10 @@ html{
 }
 
 .imagebox {
-  border: overflex solid #00aaff;
+  border:  solid #00aaff;
   line-height: 0;
 }
 .imagewrapper {
-  display: overflex;
   color: #444;
   align-items: center;
   min-height: 10vh;
