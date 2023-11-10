@@ -11,6 +11,6 @@ var form = document.getElementById('form');
 // alert for form completion
 function alertFunction() {
   if (form.checkValidity()) {
-    alert("You have successfully signed up\nCheck your email for more information");
+    alert("You have successfully sent the message.");
   }
 }
