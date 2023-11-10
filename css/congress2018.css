@@ -1,3 +1,36 @@
+/*Navigation Bar Style*/
+.navigation {
+  background-color: #fff;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 5px;
+  border-bottom: 5px solid#00aaff;
+  width: 100%;
+}
+  
+.navbuttons {
+  list-style: none;
+  display: flex;
+  padding: 0%;
+}
+  
+.navbuttons li {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+  
+.navbuttons a {
+  text-decoration: none;
+  color: #00334d;
+  transition: color 0.3s ease;
+}
+  
+.navbuttons a:hover {
+  color: #50c5ff;
+}
+
 /* elements */
 html {
   display: block;  
@@ -85,3 +118,4 @@ ol.myol {
   display: inline-block;
   text-align: left;
 }
+
