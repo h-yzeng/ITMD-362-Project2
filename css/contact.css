@@ -83,6 +83,10 @@ input[type="submit"] {
   min-width: 178px;
 }
 
+h2 {
+  font-size: 3em;
+}
+
 }
   
 @media (min-width: 768px) {
@@ -100,9 +104,9 @@ body {
   overflow:hidden;
 }  
   
-h1 {
+h2 {
   display: flex;
-  font-size:3em;
+  font-size:3.5em;
   width: 100%;
   text-rendering: optimizeLegibility;
 }
