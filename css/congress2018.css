@@ -161,3 +161,51 @@ ol.myol {
   }
 
 }
+
+@media only screen and (min-width: 1440px) {
+  html, body {
+    height: 100%;
+    background-color: #D7E3F0;
+  }
+
+  .body-container {
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: row;
+  }
+    
+  .title-container {
+    background-color: #2472B3;
+    color: #C1DFF8;
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+    text-align: center;
+    word-wrap: break-word;
+  }
+      
+  .content-box1 {
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    color: #2472B3;
+    background-color: #C1DFF8;
+    float: inline-start;
+    padding: 2em; /*44px */
+    text-align: center;
+    word-wrap: break-word;
+    height: 100%;
+  }
+      
+  .content-box2 {
+    float: left;
+    width: 50%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #2472B3;
+    color: #C1DFF8;
+    float: inline-end;
+    padding: 2em; /* 44px */
+  }
+}
