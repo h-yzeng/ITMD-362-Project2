@@ -61,6 +61,10 @@ input[type="submit"]:hover {
 
 /* Media queries */
 @media (max-width: 767px){
+body {
+  background-color: #BBCDe5;
+}
+
 .Header {
   width: 100%;
   max-width: 100%;
@@ -92,6 +96,7 @@ h2 {
 @media (min-width: 768px) {
 body {
   text-align: center;
+  background-color: #BBCDe5;
 }
   
 .Header {
