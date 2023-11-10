@@ -9,7 +9,7 @@
   align-items: center; 
   height: 100vh;
   max-width: 100%; 
-  overflow: hidden;
+  overflow: auto;
 }
   
 form {
@@ -49,7 +49,7 @@ input[type="submit"] {
   border-radius: 5px;
   width: auto;
   max-width: 100%;
-  align-self: flex-start;
+  align-self: center;
   cursor: pointer;
   box-sizing: border-box;
 }
@@ -62,13 +62,13 @@ input[type="submit"]:hover {
 /* Media queries */
 @media (max-width: 767px){
 body {
-  background-color: #BBCDe5;
+  background-color:#BBCDe5;
 }
 
 .Header {
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 100%;
 }
   
 #Form {
@@ -96,7 +96,6 @@ h2 {
 @media (min-width: 768px) {
 body {
   text-align: center;
-  background-color: #BBCDe5;
 }
   
 .Header {
@@ -128,7 +127,7 @@ form {
   margin: 0 auto;
   display: flex;  
   flex-direction: column;
-  overflow-y:hidden;
+  overflow-y:auto;
   overflow-x:hidden;
   }
 }
