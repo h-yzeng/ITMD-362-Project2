@@ -113,7 +113,7 @@ h1{
 	background-color: #E5F4C0;
 	color: #00334daa;
 }
-@media(min-weight : 1020px){
+@media(min-width: 1020px){
 html{
 	display: flex;
 	margin: 0;
@@ -126,7 +126,7 @@ p{
 }
 
 }
-@media(min-weight: 500px){
+@media(min-width: 500px){
 html{
 	margin: 0;
 	position: absolute;
