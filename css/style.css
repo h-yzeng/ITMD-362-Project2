@@ -1,5 +1,4 @@
 /* Home */
-
 /* base html style*/
 * {
   box-sizing: border-box;
@@ -13,6 +12,46 @@ html {
   color:#555555;
   opacity: 1;
   font-weight: bold;
+}
+
+h1{
+  justify-content: center;
+  text-align: center;
+  font-size: 1.7em;
+  padding: 1em;
+  border-top: 5px solid #8EAECC;
+  border-bottom: 5px solid #8EAECC;
+  background-color: #f0ffca;
+  color: #2E6E9E;
+}
+
+.textcontainer {
+  width: 100%;
+  padding: 20px;
+  border: 3px solid #528FA7;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 80%;
+  line-height: 1.6;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  word-wrap: break-word;
+}
+
+.imagecontainer {
+  margin: 20px auto;
+  border-radius: 10px;
+  border: 3px solid #528FA7;
+  max-width: 50%;
+  text-align: center;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagecontainer img {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0;
+  border-radius: 5px;
+  object-fit:cover;
 }
 
 /*Navigation Bar Style*/
@@ -64,6 +103,10 @@ body {
   margin-bottom: 10px;
 }
 
+h3 {
+  font-size: 25px;
+}
+
 .mainimage {
   display: flex;
   flex-direction: column;
@@ -82,6 +125,8 @@ body {
   align-items: center;
   min-height: 10vh;
   overflow-x: hidden;
+  overflow: hidden;
+  position: relative;
 }
 
 .imagebox {
@@ -97,6 +142,7 @@ body {
 
 .imagebox img {
   object-fit: cover;
+  max-width: 100%;
   width: 465px;
   height: 215px;
 }
@@ -107,7 +153,6 @@ footer {
 }
 
 /*contact page*/
-
 /* footer and form styling*/
 .Header, p {
   color: #00334d;
@@ -169,7 +214,7 @@ input[type="submit"]:hover {
   transition: all 200ms ease;
 }
   
-/* Media queries */
+/* Media queries for index.html*/
 @media (max-width: 767px){
   body {
     background-color:#FFFFFF;
@@ -181,6 +226,16 @@ input[type="submit"]:hover {
     height: 100%;
   }
     
+
+  .imagewrapper {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .imagebox {
+    width: 100%;
+  }
+
   #Form {
     margin: 1%;
     height: 100vh;
@@ -198,12 +253,11 @@ input[type="submit"]:hover {
   }
   
   h2 {
-    font-size: 2.5em;
+    font-size: 2.4em;
   }
-  
-  }
+}
     
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
   body {
     text-align: center;
   }
@@ -220,7 +274,7 @@ input[type="submit"]:hover {
     
   h2 {
     display: flex;
-    font-size:2.5em;
+    font-size:2.4em;
     width: 100%;
     text-rendering: optimizeLegibility;
   }
@@ -242,8 +296,7 @@ input[type="submit"]:hover {
     }
   }
 
-/* congress 2018 */
-
+/* congress 2018 page */
 html {
     display: block;  
   }
@@ -298,8 +351,7 @@ li {
   box-sizing: border-box;
 }
 
-/* Classes */
-  
+/* Classes for 2018 congress*/
 .title-container {
   background-color: #2472B3;
   width: 85%;
@@ -333,6 +385,7 @@ ol.myol {
   text-align: left;
 }
   
+/* media qurries for 2018 congress */
 @media only screen and (min-width: 768px) {
   html, body {
     height: 100%;
@@ -417,19 +470,7 @@ ol.myol {
   }
 }
 
-/*box*/
-h1{
-  justify-content: center;
-  text-align: center;
-  font-size: 1.7em;
-  padding: 1em;
-  border-top: 5px solid #8EAECC;
-  border-bottom: 5px solid #8EAECC;
-  background-color: #f0ffca;
-  color: #2E6E9E;
-}
-
-@media(min-hight: 1020px){
+@media(min-height: 1020px){
   html{
     display: flex;
     margin: 0;
@@ -440,28 +481,5 @@ h1{
   p{
     justify-content: center;
 	text-align: center;
-  }
-
-}
-
-@media(min-wight: 500px){
-  html{
-	margin: 0;
-	position: absolute;
-	justify-content: center;
-	text-align: center;
-  }
-
-  .imagebox {
-    border: overflex solid #00aaff;
-    line-height: 0;
-  }
-
-  .imagewrapper {
-    display: overflex;
-    color: #444;
-    align-items: center;
-    min-height: 10vh;
-    overflow-x: hidden;
   }
 }
