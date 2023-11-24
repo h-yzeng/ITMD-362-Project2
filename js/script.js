@@ -11,6 +11,6 @@ var form = document.getElementById('form');
 // alert for form completion
 function alertFunction() {
   if (form.checkValidity()) {
-    alert("You have successfully sent the message.");
+    alert("Thank you for consideration in learning more about the ISUD.");
   }
 }
