@@ -29,8 +29,9 @@ h1{
   width: 100%;
   padding: 20px;
   border: 3px solid #528FA7;
+  background-color: #BBCDE5;
   margin: 20px auto;
-  border-radius: 10px;
+  border-radius: px;
   max-width: 80%;
   line-height: 1.6;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -39,8 +40,8 @@ h1{
 
 .imagecontainer {
   margin: 20px auto;
-  border-radius: 10px;
   border: 3px solid #528FA7;
+  background-color: #BBCDE5;
   max-width: 50%;
   text-align: center;
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
@@ -50,8 +51,30 @@ h1{
   max-width: 100%;
   max-height: 100%;
   margin: 0;
-  border-radius: 5px;
   object-fit:cover;
+}
+
+footer {
+  background-color: #1C5D99;
+  color: #FFFFFF;
+  padding: 0 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 100%;
+  margin: auto;
+  padding: 20px;
+  background-color: #1C5D99;
+}
+
+.footer-about {
+  max-width: 800px; 
+  margin: auto; 
+}
+
+.footer-about p {
+  color: #cee7ff;
 }
 
 /*Navigation Bar Style*/
@@ -134,7 +157,6 @@ h3 {
   border: 5px solid #407EA2;
   background-color: #fff;
   color: #FFFFFF;
-  border-radius: 5px;
   text-align: center;
   margin: 5px;
   line-height: 0;
@@ -166,7 +188,11 @@ footer {
   max-width: 100%; 
   overflow: auto;
 }
-    
+
+#formtitle {
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.124);
+}
+
 form {
   max-width: 300px;
   margin: 0 auto;
@@ -183,6 +209,7 @@ label {
     
 input, textarea {
   box-sizing: border-box;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.124);
   width: 100%;
   padding: 10px;
   margin: 5px 0;
@@ -191,13 +218,13 @@ input, textarea {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-weight: bold;
   color: rgb(0, 40, 130);
-  background-color: #7fd4ff;
+  background-color: #b0e5ff;
   overflow: hidden;
 }
     
 input[type="submit"] {
-  background-color: #7fd4ff;
-  color: #ffffff;
+  background-color: #b0e5ff;
+  color: #011f2e;
   border: 3px solid #0075b0;
   margin-top: 10px;
   padding: 10px 150px;
@@ -210,7 +237,7 @@ input[type="submit"] {
 }
     
 input[type="submit"]:hover {
-  background-color: #00aaff;
+  background-color: #007ab7;
   transition: all 200ms ease;
 }
   
@@ -277,6 +304,7 @@ input[type="submit"]:hover {
     font-size:2.4em;
     width: 100%;
     text-rendering: optimizeLegibility;
+    background-color: #deecff;
   }
     
   p {
@@ -316,7 +344,6 @@ p {
 h1 {
   display: block;
   font-size: 2em;
-  margin-top: 0.67em;
   margin-bottom: 0.67em;
   margin-left: 0;
   margin-right: 0;
@@ -394,6 +421,7 @@ ol.myol {
   
   .title-container {
     background-color: #2472B3;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.124);
     width: 100%;
     margin: auto;
     padding: 2em;
@@ -403,6 +431,7 @@ ol.myol {
     
   .content-box1 {
     background-color: #C1DFF8;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.124);
     width: 100%;
     margin: auto;
     padding: 2em;
@@ -410,6 +439,7 @@ ol.myol {
     
   .content-box2 {
     background-color: #C1DFF8;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.124);
     width: 100%;
     margin: auto;
     padding: 2em;
