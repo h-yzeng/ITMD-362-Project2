@@ -1,5 +1,7 @@
 # ITMD-362 Project 2: Website Redesign
 
+## Here is the link to the webpage: https://hzeng9.github.io/itmd362_project2/
+
 This is our submission repository for project 2 in the ITMD-362 Human-Computer Interaction and Web Design Course.
 
 The goal of this project is to redesign one of the worst-designed websites. In this case, we selected https://www.worldialogue.org/ as the website to redesign as the original website was made using Wix years ago without any proper design and program structuring.
