@@ -2,7 +2,7 @@
 
 ### Here is the link to the webpage: https://h-yzeng.github.io/itmd362_project2/
 
-This is our submission repository for project 2 in the ITMD-362 Human-Computer Interaction and Web Design Course.
+This is our submission repository for Project 2 in the ITMD-362 Course at Illinois Tech: Human-Computer Interaction and Web Design.
 
 The goal of this project is to redesign one of the worst-designed websites. In this case, we selected https://www.worldialogue.org/ as the website to redesign as the original website was made using Wix years ago without proper design and program structuring.
 
