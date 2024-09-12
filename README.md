@@ -1,6 +1,6 @@
 # ITMD-362 Project 2: Website Redesign
 
-### Here is the link to the webpage: [https://h-yzeng.github.io/itmd362_project2/](https://h-yzeng.github.io/Website-Redesign/)
+### Here is the link to the webpage: https://h-yzeng.github.io/Website-Redesign/
 
 This is our submission repository for Project 2 in the ITMD-362 Course at Illinois Tech: Human-Computer Interaction and Web Design.
 
