@@ -1,8 +1,12 @@
-# ITMD-362 Project 2: Website Redesign
+<h1 align="center">ITMD-362 Project 2: Website Redesign </h1>
 
-### Here is the link to the webpage: https://h-yzeng.github.io/Website-Redesign/
+<p align="center">
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E alt="JavaScript">
+</p>
 
-This is our submission repository for Project 2 in the ITMD-362 Course at Illinois Tech: Human-Computer Interaction and Web Design.
+This is my personal submission repository for Project 2 in the ITMD-362 Course at Illinois Tech: Human-Computer Interaction and Web Design.
 
 The goal of this project is to redesign one of the worst-designed websites. In this case, we selected https://www.worldialogue.org/ as the website to redesign as the original website was made using Wix years ago without proper design and program structuring.
 
